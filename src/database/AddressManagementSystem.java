@@ -73,13 +73,7 @@ public class AddressManagementSystem {
           Long addressIdToDelete = input.nextLong();
           // if we give an id that exists in the database, that will be deleted and true will be
           // returned otherwise we get false from the deleteAddress method
-          boolean isDeleted = storage.deleteAddress(addressIdToDelete);
-          if (isDeleted) {
-            System.out.println("The address with the id " + addressIdToDelete + " is deleted");
-          } else {
-            System.out.println("The address with the id " + addressIdToDelete
-                + " is not deleted or it does not exist");
-          }
+          storage.deleteAddress(addressIdToDelete);
           break;
         case "s":
           // To get an address record using the address id
