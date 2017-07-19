@@ -52,6 +52,7 @@ public class TransactionProcessor {
     transactions.stream().sorted(Comparator.comparing(Transaction::getValue)).limit(1)
         .map(Transaction::getValue).forEach(TransactionProcessor::out);
     System.out.println(transactions.stream().map(t -> t.getValue()).reduce(Integer::min).get());
+
   }
 
   static <T> void out(T t) {
