@@ -165,7 +165,6 @@ public class StreamsBasic {
       }
       System.out.println();
     }
-
   }
 
 }
