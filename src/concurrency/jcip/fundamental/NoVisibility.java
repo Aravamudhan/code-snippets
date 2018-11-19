@@ -1,4 +1,4 @@
-package concurrency.jcip;
+package concurrency.jcip.fundamental;
 
 /**
  * Here the ready and number variables are shared among the ReaderThread and the main thread This

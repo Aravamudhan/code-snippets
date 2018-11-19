@@ -1,4 +1,4 @@
-package concurrency.jcip;
+package concurrency.jcip.fundamental;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;

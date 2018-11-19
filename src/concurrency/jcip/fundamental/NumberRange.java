@@ -1,4 +1,4 @@
-package concurrency.jcip;
+package concurrency.jcip.fundamental;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

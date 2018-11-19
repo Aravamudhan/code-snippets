@@ -1,4 +1,4 @@
-package concurrency.jcip;
+package concurrency.jcip.fundamental;
 
 import net.jcip.annotations.GuardedBy;
 import net.jcip.annotations.NotThreadSafe;

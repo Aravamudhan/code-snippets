@@ -1,4 +1,4 @@
-package concurrency.jcip;
+package concurrency.jcip.fundamental;
 
 /**
  * Demoing monitor pattern using an intrinsic lock

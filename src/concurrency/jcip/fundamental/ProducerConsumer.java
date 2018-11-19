@@ -1,4 +1,4 @@
-package concurrency.jcip;
+package concurrency.jcip.fundamental;
 
 import java.util.Arrays;
 import java.util.LinkedList;

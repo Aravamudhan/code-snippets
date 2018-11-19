@@ -1,4 +1,4 @@
-package concurrency.jcip;
+package concurrency.jcip.fundamental;
 
 /**
  * To ensure thread safety without synchronization, one must not share data. It is called
